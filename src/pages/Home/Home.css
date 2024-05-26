@@ -1,30 +1,27 @@
-.main-heading{
+.home-container {
+    color: var(--text-color-primary);
+    padding-top: 2.5rem;
+}
+
+.gap-lg {
+    gap: 9rem;
+}
+
+.main-heading {
     font-size: 3.5rem;
     line-height: 4rem;
-    padding-bottom: 10rem;
 }
 
-.home-container{
-    color: var(--text-color-primary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2.5rem;
-    
-}
-
-.input{
+.input {
     background-color: transparent;
-    padding-top: 1.5rem;
     border: none;
     border-bottom: 3px solid var(--text-color-primary);
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--text-color-primary);
-    width: 20vw;
+    width: 45vw;
     text-align: center;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
 }
